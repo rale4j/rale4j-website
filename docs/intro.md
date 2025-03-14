@@ -32,8 +32,8 @@ Gradle (Groovy DSL)
 ```groovy
 implementation group: 'com.rale4j', name: 'rale4j-core', version: '1.0.0'
 ```
-⚙️ Getting Started
+## ⚙️ Getting Started
 
     Install Rale4j using the dependencies above.
     Configure Rate Limits in application.properties (or application.yml).
-    Use the @RateLimit Annotation to enforce limits.
+    Use the `@Rale4j` Annotation to enforce limits.
