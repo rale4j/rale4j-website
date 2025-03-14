@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'rale4j', // Usually your repo name.
+  organizationName: 'rale4j', // Usually your GitHub org/user name.
+  projectName: 'rale4j-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,10 +54,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -76,9 +72,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Rale4J',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Rale4J Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -89,11 +85,6 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -106,22 +97,22 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Java Doc',
+                href: 'https://docs.rale4j.com/javadoc',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Featured',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Maven Central',
+                href: 'https://central.sonatype.com/namespace/com.rale4j',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Slack',
+                href: 'https://join.slack.com/t/rale4j/shared_invite/zt-318wq5hk1-SlDjF5LBLGMI6AbnSXypEg',
               },
             ],
           },
@@ -134,12 +125,13 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/rale4j',
               },
+
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Rale4J Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rale4J `,
       },
       prism: {
         theme: prismThemes.github,

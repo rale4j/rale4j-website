@@ -2,46 +2,38 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Rale4j (**Rate Limiting Enhancement for Java Devs**) is a powerful, lightweight, and configurable **rate-limiting** library for Spring Boot applications.
 
-## Getting Started
+## 🔥 Why Use Rale4j?
+✅ **Simple Annotations** – Just use `@Rale4j` to control API access.  
+✅ **Flexible Configuration** – Customize limits via `application.properties` or Java configurations.  
+✅ **In-Memory & Redis Support** – Choose between **Guava Cache** (in-memory) or **Redis** for distributed rate limiting.  
+✅ **High Performance** – Uses efficient algorithms like **Token Bucket, Sliding Window, and Leaky Bucket**.  
+✅ **Observability** – Integrates with **Prometheus & Grafana** for monitoring.  
 
-Get started by **creating a new site**.
+## 📦 Installation
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+### **Maven**
+Add this dependency to your `pom.xml`:
+```xml
+<dependency>
+    <groupId>com.rale4j</groupId>
+    <artifactId>rale4j-core</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+Gradle (Kotlin DSL)
+```kts
+implementation("com.rale4j:rale4j-core:1.0.0")
 ```
+Gradle (Groovy DSL)
+```groovy
+implementation group: 'com.rale4j', name: 'rale4j-core', version: '1.0.0'
+```
+⚙️ Getting Started
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+    Install Rale4j using the dependencies above.
+    Configure Rate Limits in application.properties (or application.yml).
+    Use the @RateLimit Annotation to enforce limits.

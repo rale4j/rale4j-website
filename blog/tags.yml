@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+rale4j:
+  label: Rale4j
+  permalink: /rale4j
+  description: Rate Limiting annotation
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+pluggable:
+  label: Pluggable
+  permalink: /pluggable
+  description: Pluggable with any configuration
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+sb:
+  label: Spring Boot
+  permalink: /spring-boot
+  description: Spring Boot usage
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+aop:
+  label: AOP
+  permalink: /aop
+  description: Aspect oriented programming
+
+interceptors:
+  label: Interceptors
+  permalink: /interceptors
+  description: Interceptors

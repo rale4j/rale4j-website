@@ -3,33 +3,31 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Flexible & Configurable',
+    Svg: require('@site/static/img/configurable.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Whether using in-memory caching, Redis, or custom strategies, Rale4j allows you to configure your needs.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Effortless Rate Limiting',
+    Svg: require('@site/static/img/effortless_rate_limiting.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        simplifies rate limiting with annotations , ensuring your APIs remain performant and protected.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Optimized for Performance',
+    Svg: require('@site/static/img/performance.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Designed to handle millions of requests ,using algorithms like Token Bucket and Sliding Window.
       </>
     ),
   },
