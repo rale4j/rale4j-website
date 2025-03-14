@@ -45,3 +45,5 @@
        rbac:
          enabled: true
    ```
+   ## For more information
+   Refer to the [JavaDocs](https://docs.rale4j.com/javadoc) for more configuration ,list of classes and their usages.
