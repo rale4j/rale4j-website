@@ -1,6 +1,6 @@
 # Rale4j Spring Boot
 
-Rale4j is a flexible and powerful rate-limiting library for Java applications. This project demonstrates how to integrate Rale4j with a Spring Boot application.
+Rale4j is a flexible and powerful rate-limiting library for Java applications.
 
 ## Features
 
