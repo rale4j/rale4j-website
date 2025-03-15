@@ -8,7 +8,6 @@ tags: [rale4j,pluggable,sb]
 
    Rale4j is designed to be easily integrated into any project, providing a flexible and powerful rate-limiting solution. 
 
-   [![Maven Central](https://img.shields.io/maven-central/v/com.rale4j/rale4j-core.svg)](https://central.sonatype.com/artifact/com.rale4j/rale4j-core)
 
    ## Key Features
 
